@@ -1,0 +1,11 @@
+Oguzhan Karabacak 150170021
+
+1.
+When we make 3 different trees using the same nodes, these 3 trees will not affect each other, 
+so when we add any x, y or z values, the complexity of the insertion operation will be the same as the insert time complexity of the B-tree operation, 
+since it will only operate in its own tree. So time complexity is O (logn).
+
+2.
+When a new node is inserted, the node will first make an insert in B-Tree and the complexity of this operation is logn.
+After finding the right node, it needs to insert in the mini B-Tree and its complexity is logn.
+So the complexity of adding a new node to the mini B-Tree is logn + logn so complexity is O(logn).
